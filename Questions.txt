@@ -1,0 +1,37 @@
+1. What is the difference between ISNULL and COALESCE in SQL?
+2. How would you optimize a slow SQL query? 
+3. What is the difference between INNER JOIN and OUTER JOIN? 
+4. Write a SQL query to find the top 3 departments with the highest average salary.
+5. How do you handle duplicate rows in a SQL query?
+6. Write a SQL query to find the employees who have the same name and work in the same department.
+What is the difference between UNION and UNION ALL? 
+Write a SQL query to find the departments with no employees. 
+How do you use indexing to improve SQL query performance? 
+Write a SQL query to find the employees who have worked for more than 5 years. 
+What is the difference between SUBQUERY and JOIN? 
+Write a SQL query to find the top 2 products with the highest sales.
+How do you use stored procedures to improve SQL query performance? 
+Write a SQL query to find the customers who have placed an order but have not made a payment.
+What is the difference between GROUP BY and HAVING? 
+Write a SQL query to find the employees who work in the same department as their manager.
+How do you use window functions to solve complex queries? 
+Write a SQL query to find the top 3 products with the highest average price.
+What is the difference between TRUNCATE and DELETE? 
+Write a SQL query to find the employees who have not taken any leave in the last 6 months.
+
+
+#Mercedes Benz
+1. Write a SQL query to see employee name and manager name using a self-join on 'employees' table with columns 'emp_id', 'name', and 'manager_id'.  
+2. Explain the order of execution in SQL queries.
+
+#Delloitte
+Explain the difference between RANK(), DENSE_RANK(), and ROW_NUMBER() functions using example. 
+use Table: employee (EmpID, ManagerID, JoinDate, Dept, Salary) 
+Find the nth highest salary from the Employee table. 
+You have an employee table with employee ID and manager ID. Find all employees under a specific manager, including their subordinates at any level. 
+Write a query to find the cumulative salary of employees department-wise, who have joined company in last 30 days. 
+Find the top 2 customers with the highest order amount for each product category, handling ties appropriately. Table: customer (CustomerID, ProductCategory, OrderAmount) 
+Write a SQL code to extract the third highest salary from an employee table with columns - EID, ESalary. 
+Write SQL code to create a procedure with ESalary as one parameter - select all EIDs from Employee table where ESalary < 50000. 
+For table Employee (columns - EID, ESalary), filter all EIDs where salary is odd numbers and merge with another table empdetails (columns - EID, EDOB) to get EDOB.
+
